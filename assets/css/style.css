@@ -75,7 +75,7 @@ body {
 /* Sign-up Navigation */
 #menu-signup {
     letter-spacing: 4px;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
     margin-left: 100px;
 }
@@ -585,7 +585,7 @@ form h3 {
     }
 }
 
-/* New Media -- resubmission----------------------------------------------------*/
+/* New Media -- resubmission--------------Sign-up.html--------------------------------------*/
 @media screen and (max-width:2560px) {
 
     #sign-up-body {
@@ -954,5 +954,220 @@ form h3 {
             margin-left: 00px;
 
         }
+    }
+
+}
+
+/* ---------------Resubmission--------- more.html page */
+@media screen and (max-width:2560px) {
+
+    #footer {
+        width: 100%;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 120px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 35px;
+        padding: 20px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    #Trailer-title {
+        color: orange;
+        font-size: 110px;
+        text-align: center;
+        margin-top: 455px;
+        margin-left: 350px;
+        position: absolute;
+        text-transform: capitalize;
+    }
+
+
+
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #Trailer-content-div {
+        width: 80%;
+        height: 200px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 258px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    #Trailer-content-div2 {
+        width: 50%;
+        height: 200px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 40%;
+        height: 200px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 1350px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 100%;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #footer {
+        width: 100%;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 120px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 35px;
+        padding: 20px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
     }
 }
