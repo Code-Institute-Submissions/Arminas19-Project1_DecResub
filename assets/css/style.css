@@ -667,7 +667,7 @@ form h3 {
 
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:2000px) {
     #menu-signup {
         letter-spacing: 2px;
         font-size: 90px;
