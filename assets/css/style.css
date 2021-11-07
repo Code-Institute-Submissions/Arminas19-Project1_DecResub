@@ -960,12 +960,24 @@ form h3 {
 
 /* ---------------Resubmission--------- more.html page */
 @media screen and (max-width:2560px) {
+    #iframe-id {
+        position: relative;
+        margin-top: 600px;
+        margin-left: -1000px;
+        width: 960px;
+        height: 540px;
+    }
+
+    #video-div {
+        margin-left: 600px;
+    }
 
     #footer {
-        width: 100%;
+        width: 2560px;
         height: 400px;
         background: url(../css/images/footer-image.jpg) no-repeat center center;
         margin-top: 180px;
+        margin-left: 100px;
     }
 
     #footer h1 {
@@ -1125,6 +1137,166 @@ form h3 {
 }
 
 @media screen and (max-width: 1440px) {
+    #video-div {
+        margin-left: 0px;
+    }
+
+    #footer {
+        width: 100%;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 120px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 35px;
+        padding: 20px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #Trailer-content-div {
+        width: 100%;
+        height: 210px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    #Trailer-content-div2 {
+        width: 50%;
+        height: 200px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 40%;
+        height: 200px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 800px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 100%;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #video-div {
+        margin-left: -220px;
+    }
+
     #footer {
         width: 100%;
         height: 400px;
@@ -1169,5 +1341,768 @@ form h3 {
 
     .Social-networks a {
         text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #Trailer-content-div {
+        width: 100%;
+        height: 250px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    #Trailer-content-div2 {
+        width: 50%;
+        height: 250px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 40%;
+        height: 250px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 600px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 100%;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #video-div {
+        margin-left: 100px;
+    }
+
+    #Trailer-title {
+        position: absolute;
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-left: 550px;
+    }
+
+    #footer {
+        width: 1600px;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 90px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 17px;
+        padding: 10px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 350px;
+    }
+
+    #Trailer-content-div {
+        width: 940px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 350px;
+    }
+
+    #Trailer-content-div2 {
+        width: 500px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 400px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 530px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 1700px;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #video-div {
+        margin-left: 0px;
+    }
+
+    #Trailer-title {
+        position: absolute;
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-left: 550px;
+    }
+
+    #footer {
+        width: 1600px;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 90px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 17px;
+        padding: 10px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 250px;
+    }
+
+    #Trailer-content-div {
+        width: 940px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 250px;
+    }
+
+    #Trailer-content-div2 {
+        width: 500px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 400px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 530px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 1700px;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #video-div {
+        margin-left: 150px;
+    }
+
+    #Trailer-title {
+        position: absolute;
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-left: 550px;
+    }
+
+    #footer {
+        width: 1600px;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 90px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 17px;
+        padding: 10px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 400px;
+    }
+
+    #Trailer-content-div {
+        width: 940px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 400px;
+    }
+
+    #Trailer-content-div2 {
+        width: 500px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 400px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 530px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 1700px;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    #menu {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #video-div {
+        margin-left: 0px;
+    }
+
+    #Trailer-title {
+        position: absolute;
+        font-size: 100px;
+        margin-bottom: 50px;
+        margin-left: 550px;
+    }
+
+    #footer {
+        width: 1600px;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        margin-left: 0px;
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 90px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 17px;
+        padding: 10px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* Trailer content + div  */
+    #Trailer-content {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 250px;
+    }
+
+    #Trailer-content-div {
+        width: 940px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-left: 5px;
+        margin-top: 25px;
+        position: absolute;
+
+
+
+    }
+
+    /* Second Trailer content + 2 other div's   */
+
+    #Trailer-content-2 {
+        width: 950px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 3px solid orange;
+        border-bottom: 3px solid orange;
+        margin-top: 50px;
+        position: relative;
+        margin-left: 250px;
+    }
+
+    #Trailer-content-div2 {
+        width: 500px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 0px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div-3 {
+        width: 400px;
+        height: 350px;
+        background-color: rgba(5, 59, 129, 1.0);
+        margin-top: 25px;
+        margin-left: 530px;
+        position: absolute;
+        display: inline;
+    }
+
+    #Trailer-content-div h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Trailer-content-div p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #Trailer-content-div2 h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #Trailer-content-div2 p {
+        color: #fff;
+        font-size: 23px;
+    }
+
+    #Trailer-content-div-3 {
+        color: rgb(208, 243, 55);
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #Trailer-content-div-3 p {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #header-nav {
+        width: 1700px;
+        font-size: 80px;
+        height: 350px;
+        margin-top: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 3px solid rgb(208, 243, 55);
+        position: absolute;
+        margin-left: 0px;
+    }
+
+    #menu {
+        font-size: 80px;
     }
 }
