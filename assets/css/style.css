@@ -2107,3 +2107,56 @@ form h3 {
         font-size: 80px;
     }
 }
+
+/* ----------------------------------Resubmission for my Home.html page --------------------------------------- */
+@media screen and (max-width:2560px) {
+
+    #pre-order-div {
+        margin-top: 500px;
+        margin-left: 250px;
+    }
+
+    #footer {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 140px;
+        margin-left: 10px;
+    }
+
+    #footer h2 {
+        font-size: smaller;
+    }
+
+    .Social-networks {
+        font-size: 80px;
+    }
+
+    #long-paragraph {
+        padding-top: 100px;
+
+    }
+
+    #long-paragraph-div {
+        height: 180px;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #content-image {
+        position: absolute;
+    }
+
+    #Trailer-content-div-3 {
+        margin-left: 650px;
+    }
+
+    #Trailer-content-div {
+
+        height: 245px;
+        margin-left: 80px;
+        margin-top: 3px;
+    }
+
+}
