@@ -1449,7 +1449,7 @@ form h3 {
 
 @media screen and (max-width: 768px) {
     #video-div {
-        margin-left: 100px;
+        margin-left: 270px;
     }
 
     #Trailer-title {
@@ -1460,7 +1460,7 @@ form h3 {
     }
 
     #footer {
-        width: 1600px;
+        width: 2000px;
         height: 400px;
         background: url(../css/images/footer-image.jpg) no-repeat center center;
         margin-top: 180px;
@@ -1508,7 +1508,7 @@ form h3 {
 
     /* Trailer content + div  */
     #Trailer-content {
-        width: 950px;
+        width: 1300px;
         height: 400px;
         background-color: rgba(0, 0, 0, 0.7);
         border-top: 3px solid orange;
@@ -1519,12 +1519,13 @@ form h3 {
     }
 
     #Trailer-content-div {
-        width: 940px;
+        width: 1270px;
         height: 350px;
         background-color: rgba(5, 59, 129, 1.0);
         margin-left: 5px;
         margin-top: 25px;
         position: absolute;
+        font-size: 50px;
 
 
 
@@ -1533,7 +1534,7 @@ form h3 {
     /* Second Trailer content + 2 other div's   */
 
     #Trailer-content-2 {
-        width: 950px;
+        width: 1300px;
         height: 400px;
         background-color: rgba(0, 0, 0, 0.7);
         border-top: 3px solid orange;
@@ -1544,7 +1545,7 @@ form h3 {
     }
 
     #Trailer-content-div2 {
-        width: 500px;
+        width: 700px;
         height: 350px;
         background-color: rgba(5, 59, 129, 1.0);
         margin-top: 25px;
@@ -1554,11 +1555,11 @@ form h3 {
     }
 
     #Trailer-content-div-3 {
-        width: 400px;
+        width: 550px;
         height: 350px;
         background-color: rgba(5, 59, 129, 1.0);
         margin-top: 25px;
-        margin-left: 530px;
+        margin-left: 730px;
         position: absolute;
         display: inline;
     }
@@ -1597,7 +1598,7 @@ form h3 {
     }
 
     #header-nav {
-        width: 1700px;
+        width: 2000px;
         font-size: 80px;
         height: 350px;
         margin-top: 0%;
