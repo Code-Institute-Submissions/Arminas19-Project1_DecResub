@@ -1292,7 +1292,7 @@ form h3 {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
     #video-div {
         margin-left: -220px;
     }
@@ -1321,7 +1321,7 @@ form h3 {
     }
 
     .Social-networks {
-        font-size: 120px;
+        font-size: 180px;
         text-align: center;
     }
 
