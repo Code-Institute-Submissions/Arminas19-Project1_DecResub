@@ -3016,14 +3016,14 @@ form h3 {
 
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:475px) {
     #footer {
         width: 100%;
         height: 400px;
         background: url(../css/images/footer-image.jpg) no-repeat center center;
         margin-top: 180px;
-        padding-left: 200px;
-        padding-right: 210px;
+        padding-left: 300px;
+        padding-right: 350px;
 
 
     }
@@ -3037,6 +3037,7 @@ form h3 {
         color: rgb(208, 243, 55);
         text-align: center;
         text-transform: uppercase;
+        font-size: 20px;
     }
 
     #footer h3 {
@@ -3045,7 +3046,7 @@ form h3 {
     }
 
     .Social-networks {
-        font-size: 40px;
+        font-size: 45px;
         text-align: center;
     }
 
@@ -3055,8 +3056,8 @@ form h3 {
 
     .Social-networks i {
         color: rgb(208, 243, 55);
-        margin: 35px;
-        padding: 20px;
+        margin: 15px;
+        padding: 10px;
     }
 
     .Social-networks i:hover {
@@ -3133,14 +3134,15 @@ form h3 {
         background: url(../css/images/content-pic.png) no-repeat;
         display: inline-block;
         margin-left: 40px;
+        padding-right: 50px;
         padding-top: 250px;
 
 
     }
 
     #content-paragrph {
-        width: 60%;
-        height: 450px;
+        width: 72%;
+        height: 480px;
         background-color: rgba(0, 0, 0, 0.7);
         margin-top: 25px;
         display: inline-block;
@@ -3175,7 +3177,7 @@ form h3 {
     }
 
     #long-paragraph-div {
-        width: 95%;
+        width: 700px;
         height: 280px;
         background-color: rgba(0, 0, 0, 0.7);
         margin: 0 auto;
@@ -3194,8 +3196,8 @@ form h3 {
     }
 
     #menu {
-        letter-spacing: 4px;
-        font-size: 50px;
+        letter-spacing: 1px;
+        font-size: 10px;
         margin-top: 20px;
         margin-left: 100px;
     }
@@ -3203,6 +3205,217 @@ form h3 {
     #menu li {
         list-style-type: none;
         display: inline-block;
+        margin-left: 50px;
+        color: orange;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #menu a:hover {
+        border: 3px dashed #fff;
+
+    }
+
+    .active {
+        border-bottom: 2px solid #fff;
+    }
+
+
+}
+
+@media screen and (max-width:320px) {
+    #footer {
+        width: 100%;
+        height: 400px;
+        background: url(../css/images/footer-image.jpg) no-repeat center center;
+        margin-top: 180px;
+        padding-left: 380px;
+        padding-right: 370px;
+
+
+    }
+
+    #footer h1 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    #footer h2 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    #footer h3 {
+        color: rgb(208, 243, 55);
+        text-align: center;
+    }
+
+    .Social-networks {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Social-networks>li {
+        display: inline;
+    }
+
+    .Social-networks i {
+        color: rgb(208, 243, 55);
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .Social-networks i:hover {
+        color: orange;
+    }
+
+    .Social-networks a {
+        text-decoration: none;
+    }
+
+    /* end of footer  */
+
+    #pre-oreder-section {
+        width: 1280px;
+        height: 720px;
+        margin: 0 auto;
+        margin-top: 40px;
+        background-image: url(../css/images/fifa-22.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+
+    }
+
+
+    #pre-order-div {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 550px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 3px solid orange;
+        text-align: center;
+    }
+
+    #pre-order-div h1 {
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+
+    }
+
+
+    #pre-order-div p {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    #pre-order-div span {
+        font-size: 35px;
+        color: orange;
+        text-align: center;
+    }
+
+    /* Home page content  */
+
+    #content {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 155px;
+
+
+
+    }
+
+    #content-image {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color: salmon;
+        background: url(../css/images/content-pic.png) no-repeat;
+        margin-left: -1500px;
+        padding-right: 150px;
+
+
+
+
+    }
+
+    #content-paragrph {
+        width: 700px;
+        height: 480px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-top: 25px;
+        display: inline-block;
+        margin-left: 200px;
+        color: orange;
+        text-align: center;
+        border: 3px solid orange;
+    }
+
+    #content-paragrph p {
+        text-align: left;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #content-paragrph h2,
+    h3 {
+        font-size: 25px;
+    }
+
+
+    /*  Long content goes here!   */
+
+    #long-paragraph {
+        width: 95%;
+        height: 170px;
+        margin: 0 auto;
+        margin-top: 170px;
+        align-items: center;
+        margin-left: 200px;
+
+    }
+
+    #long-paragraph-div {
+        width: 700px;
+        height: 280px;
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 0 auto;
+        color: orange;
+        border: 4px solid orange;
+    }
+
+    #long-paragraph-div p {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    #long-paragraph-div h2 {
+        color: orange;
+        font-size: 35px;
+    }
+
+    #menu {
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 100px;
+        display: inline;
+
+    }
+
+    #menu li {
+        list-style-type: none;
+        display: inline;
         margin-left: 50px;
         color: orange;
     }
