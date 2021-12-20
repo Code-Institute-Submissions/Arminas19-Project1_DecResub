@@ -570,6 +570,92 @@ form h3 {
                 font-size: 47px;
             }
         /* End of my index.html queries */
+        /* start of my more.html queries */
+        #Trailer-content-div-3 > p{
+            font-size: 22px;
+        }
+        #Trailer-content {
+            width: 100%;
+            height: 420px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        #Trailer-content-div {
+            width: 80%;
+            height: 360px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-left: 268px;
+            margin-top: 25px;
+            position: absolute;
+        }
+        #Trailer-content-div > p{
+            font-size: 35px;
+        }
+        
+        #video-div{
+            margin-left: 600px;
+        
+        }
+        #video-div > h2{
+           
+        }
+        
+        #Trailer-content-2 {
+            width: 100%;
+            height: 300px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+            margin-top: 50px;
+            position: relative;
+        
+        }
+        #Trailer-content-div > h2{
+            font-size: 35px;
+        }
+        
+        #Trailer-content-div2 {
+            width: 50%;
+            height: 250px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-top: 25px;
+            margin-left: 50px;
+            position: absolute;
+            display: inline;
+        }
+        #Trailer-content-div2 > p{
+            font-size: 35px;
+        
+        }
+        #Trailer-content-div2 > h2{
+            font-size: 35px;
+        
+        }
+
+        #Trailer-content-div-3 > p{
+            font-size: 35px;
+        
+        }
+        #Trailer-content-div-3 > h2{
+            font-size: 35px;
+        
+        }
+        
+        #Trailer-content-div-3 {
+            width: 40%;
+            height: 250px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-top: 25px;
+            margin-left: 1430px;
+            position: absolute;
+            display: inline;
+        }
+        
+        /* end of my more.html queries */
 }
 @media screen and (max-width:2000px) {
     /* start of my index.html queries  for screens above 1440px and below 2560px*/
@@ -713,6 +799,101 @@ form h3 {
                 font-size: 37px;
             }
         /* End of my index.html queries */
+/* start of my more.html queries */
+#Trailer-content-div-3 > p{
+    font-size: 22px;
+}
+#Trailer-content {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    margin-top: 50px;
+    position: relative;
+}
+
+#Trailer-content-div {
+    width: 80%;
+    height: 300px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-left: 128px;
+    margin-top: 25px;
+    position: absolute;
+}
+#Trailer-content-div > p{
+    font-size: 35px;
+}
+
+#video-div{
+    margin-left: 00px;
+
+}
+#video-div > h2{
+   
+}
+
+#Trailer-content-2 {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    margin-top: 50px;
+    position: relative;
+
+}
+#Trailer-content-div > h2{
+    font-size: 35px;
+}
+
+#Trailer-content-div2 {
+    width: 50%;
+    height: 250px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-top: 25px;
+    margin-left: 50px;
+    position: absolute;
+    display: inline;
+}
+#Trailer-content-div2 > p{
+    font-size: 20px;
+
+}
+#Trailer-content-div2 > h2{
+    font-size: 25px;
+
+}
+
+#Trailer-content-div-3 > p{
+    font-size: 20px;
+
+}
+#Trailer-content-div-3 > h2{
+    font-size: 25px;
+
+}
+
+#Trailer-content-div-3 {
+    width: 40%;
+    height: 250px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-top: 25px;
+    margin-left: 860px;
+    position: absolute;
+    display: inline;
+}
+
+
+#Trailer-content-div > p{
+    font-size: 20px;
+}
+#Trailer-content-div > h2{
+    font-size: 25px;
+}
+
+
+/* end of my more.html queries */
 }
 @media screen and (max-width:1440px) {
 /* start of my index.html queries */
@@ -855,7 +1036,75 @@ position: relative;
     }
 
 /* End of my index.html queries */
+/* start of my more.html queries */
+#Trailer-content-div-3 > p{
+    font-size: 22px;
+}
+#Trailer-content {
+    width: 100%;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    margin-top: 50px;
+    position: relative;
+}
 
+#Trailer-content-div {
+    width: 80%;
+    height: 270px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-left: 128px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+
+#video-div{
+    margin-left: -0px;
+
+}
+#video-div > h2{
+   
+}
+
+#Trailer-content-2 {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+#Trailer-content-div2 {
+    width: 50%;
+    height: 200px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-top: 25px;
+    margin-left: 50px;
+    position: absolute;
+    display: inline;
+}
+#Trailer-content-div2 > p{
+    font-size: 20px;
+
+}
+
+#Trailer-content-div-3 {
+    width: 40%;
+    height: 200px;
+    background-color: rgba(5, 59, 129, 1.0);
+    margin-top: 25px;
+    margin-left: 830px;
+    position: absolute;
+    display: inline;
+}
+
+/* end of my more.html queries */
 }
 @media screen and (max-width:1024px) {
     /* Start of my index.html queries */
@@ -964,7 +1213,71 @@ position: relative;
             }
 
         /*  End of my index.html queries */
-/* start of my more.html queries */
+        /* start of my more.html queries */
+      
+        #video-div{
+            margin-left: -230px;
+
+        }
+        #video-div > h2{
+           
+        }
+        #Trailer-content {
+            width: 100%;
+            height: 330px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        #Trailer-content-div {
+            width: 80%;
+            height: 270px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-left: 128px;
+            margin-top: 25px;
+            position: absolute;
+        }
+        #Trailer-content-2 {
+            width: 100%;
+            height: 250px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+            margin-top: 50px;
+            position: relative;
+        
+        }
+        
+        #Trailer-content-div2 {
+            width: 50%;
+            height: 200px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-top: 25px;
+            margin-left: 50px;
+            position: absolute;
+            display: inline;
+        }
+        #Trailer-content-div2 > p{
+            font-size: 20px;
+
+        }
+        #Trailer-content-div-3 > p{
+            font-size: 20px;
+        }
+        
+        #Trailer-content-div-3 {
+            width: 40%;
+            height: 200px;
+            background-color: rgba(5, 59, 129, 1.0);
+            margin-top: 25px;
+            margin-left: 580px;
+            position: absolute;
+            display: inline;
+        }
+        
 
 /* end of my more.html queries */
 }
