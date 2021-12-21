@@ -1634,7 +1634,9 @@ form h3 {
         text-align: left;
         
         }
-        
+        #menu ul{
+            margin-left: -50px;
+        }
         #menu li {
         list-style-type: none;
         display: inline;
@@ -2228,11 +2230,13 @@ margin-top: 20px;
 margin-left: 00px;
 
 }
-
+#menu ul{
+    margin-left: 0px;
+}
 #menu li {
 list-style-type: none;
 display: inline;
-margin-left: 0px;
+margin-left: 20px;
 color: orange;
 margin: 5px;
 display: inline-block;
@@ -2454,7 +2458,7 @@ font-size: 20px
     
     font-size: 25px;
     margin-top: 20px;
-    margin-left: 00px;
+    margin-left: -5px;
     
 }
 
