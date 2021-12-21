@@ -104,3 +104,7 @@ When a user visit's the home page, they will see a navigation menu, a big FIFA 2
    +  I copy and Pasted some text from the officially EA Fifa 22 website - here is their link: https://www.ea.com/en-gb/games/fifa/fifa-22.
    + All my images were taken from this link: https://www.bing.com/images/search?q=fifa+22&form=HDRSC3&first=1&tsc=ImageHoverTitle.  
    + I also used google fonts and icons - link for that: https://fontawesome.com/v5.15/icons/comments?style=solid.
+## Resubmission Update
+* updated all queries (from 320px to 2560px)
+* Note: pre-order-div is meant to overlap pre-oreder-section image.
+![Pre-order-div overlapping pre-order-section](assets/css/images/Pre-order.PNG)
