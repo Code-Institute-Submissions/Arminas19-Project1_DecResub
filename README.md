@@ -105,7 +105,17 @@ When a user visit's the home page, they will see a navigation menu, a big FIFA 2
    + All my images were taken from this link: https://www.bing.com/images/search?q=fifa+22&form=HDRSC3&first=1&tsc=ImageHoverTitle.  
    + I also used google fonts and icons - link for that: https://fontawesome.com/v5.15/icons/comments?style=solid.
 ## Resubmission Update
-* Updated all queries (from 320px to 2560px)
+* Updated queries (from 280px to 2560px)
+* Resolution Sizes
+  + 280 x 653
+  + 320 x 665
+  + 375 x 665
+  + 425 x 665
+  + 768 x 665
+  + 1024 x 665 
+  + 1440 x 888
+  + 2000 x 1212
+  + 2560 x 1666 
 * Note: pre-order-div is meant to overlap pre-oreder-section image.
 * Added a media querry for the Galaxy Fold device which was 280px. 
 ![Pre-order-div overlapping pre-order-section](assets/css/images/Pre-order.PNG)
