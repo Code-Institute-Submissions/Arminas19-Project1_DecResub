@@ -1252,9 +1252,11 @@ form h3 {
 
         }
         #Trailer-content-div-3 > p{
-            font-size: 20px;
+            font-size: 18px;
         }
-        
+        #Trailer-content-div > p{
+            font-size: 18px;
+        }
         #Trailer-content-div-3 {
             width: 40%;
             height: 200px;
