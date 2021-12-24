@@ -890,7 +890,7 @@ form h3 {
 }
 /* end of my sign-up.html queries */
 }
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1600px) {
 /* start of my index.html queries */
 #footer{
     margin-top: 0px;
@@ -1012,6 +1012,9 @@ position: relative;
 /* start of my more.html queries */
 #Trailer-content-div-3 > p{
     font-size: 22px;
+}
+#Trailer-content-div > p{
+font-size: 22px;
 }
 #Trailer-content {
     width: 100%;

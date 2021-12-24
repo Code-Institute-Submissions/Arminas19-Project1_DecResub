@@ -113,7 +113,7 @@ When a user visit's the home page, they will see a navigation menu, a big FIFA 2
   + 425 x 665
   + 768 x 665
   + 1024 x 665 
-  + 1440 x 888
+  + 1600 x 888
   + 2000 x 1212
   + 2560 x 1666 
 * Note: pre-order-div is meant to overlap pre-oreder-section image.
