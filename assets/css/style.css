@@ -1160,6 +1160,9 @@ font-size: 22px;
             
             #content-image {
             background: url();
+            margin-left: 0;
+            width: 0px;
+            height: 0px;
             }
             
             #content-paragrph {
@@ -1299,14 +1302,14 @@ margin: 10px;
 padding: 10px;
 }
 #pre-oreder-section{
-    margin-top: 40px;
+  width: 0px;
     background-image: url();
     }
     #pre-order-div {
     width: 333px;
     height: 400px;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: -170px;
     }
 
     #menu {
@@ -1434,8 +1437,8 @@ padding: 10px;
 #pre-order-div {
 height: 300px;
 position: absolute;
-margin-left: 0px;
 text-align: center;
+margin-left: -155px;
 }
 
 #pre-order-div h2 {
@@ -1633,6 +1636,7 @@ font-size: 30px;
 /* start of my index.html queries (280px)*/
 #pre-order-div {
     width: 275px;
+    margin-left:-140px;
 }
 
 #menu {
