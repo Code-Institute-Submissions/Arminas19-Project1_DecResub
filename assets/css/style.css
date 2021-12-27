@@ -400,26 +400,17 @@ form h3 {
             font-size: 65px;
         }
         #menu {
-            letter-spacing: 4px;
             font-size: 100px;
-            margin-top: 20px;
-            margin-left: 100px;
         }
         #pre-oreder-section {
             width: 1880px;
             height: 1120px;
-            margin: 0 auto;
-            margin-top: 40px;
-            background-image: url(../css/images/fifa-22.jpg);
-            background-repeat: no-repeat;
-            position: relative;
             background-size: 100% ;
         }
         
         #pre-order-div {
             width: 800px;
             height: 400px;
-            position: absolute;
             margin-top: 700px;
             margin-left: 1150px;
         }
@@ -440,7 +431,6 @@ form h3 {
         #content {
             width: 100%;
             height: 800px;
-            margin: 0 auto;
             margin-top: 205px;
         position: relative;
         }
@@ -448,8 +438,6 @@ form h3 {
         #content-image{
             width: 800px;
             height: 780px;
-            background: url(../css/images/content-pic.png) no-repeat;
-            display: inline-block;
             margin-left: 1400px;
             background-size: 100%;
             position: absolute;
@@ -553,21 +541,16 @@ form h3 {
         /* Start of my sign-up.html queries (2560px)*/
         #sign-up-body {
             height: 2202px;
-            width: 100%;
-            margin-bottom: 190px;
-            position: absolute;
         }
     
         #menu-signup {
             letter-spacing: 2px;
             font-size: 150px;
             margin-top: 40px;
-            margin-left: 100px;
             font: 53px;
         }
     
         #form-section {
-            margin-top: 300px;
             margin-left: 500px;
             font-size: 53px;
         }
@@ -577,29 +560,17 @@ form h3 {
         }
     
         .sign-up-form {
-            margin: 150px 10% 0 0;
-            border-radius: 2px;
             max-width: 1000px;
-            position: absolute;
             font-size: 53px;
-            padding: 30px;
         }
     
         .form-text {
-            background: transparent;
-            width: 100%;
             height: 65px;
-            margin: 5px 0 20px 0;
-            border-radius: 2px;
             font-size: 53px;
         }
         .submit-button {
-            margin-top: 20px;
-            border-radius: 2px;
             padding: 35px 72px;
-            text-align: center;
             font-size: 50px;
-            display: block;
         }
         form h3 {
             font-size: 53px;
