@@ -482,16 +482,12 @@ form h3 {
             font-size: 22px;
         }
         #Trailer-content {
-            width: 100%;
             height: 420px;
-            margin-top: 50px;
         }
         
         #Trailer-content-div {
-            width: 80%;
             height: 360px;
             margin-left: 268px;
-            margin-top: 25px;
         }
         #Trailer-content-div > p{
             font-size: 35px;
@@ -501,19 +497,14 @@ form h3 {
             margin-left: 600px;
         }
         #Trailer-content-2 {
-            width: 100%;
             height: 300px;
-            margin-top: 50px;
         }
         #Trailer-content-div > h2{
             font-size: 35px;
         }
         
         #Trailer-content-div2 {
-            width: 50%;
             height: 250px;
-            margin-top: 25px;
-            margin-left: 50px;
         }
         #Trailer-content-div2 > p{
             font-size: 35px;
@@ -530,12 +521,8 @@ form h3 {
         }
         
         #Trailer-content-div-3 {
-            width: 40%;
             height: 250px;
-            margin-top: 25px;
             margin-left: 1430px;
-            position: absolute;
-            display: inline;
         }
         /* end of my more.html queries (2560px)*/
         /* Start of my sign-up.html queries (2560px)*/
@@ -673,16 +660,12 @@ form h3 {
     font-size: 30px;
 }
 #Trailer-content {
-    width: 100%;
     height: 350px;
-    margin-top: 50px;
 }
 
 #Trailer-content-div {
-    width: 80%;
     height: 300px;
     margin-left: 178px;
-    margin-top: 25px;
 }
 #Trailer-content-div > p{
     font-size: 27px;
@@ -699,13 +682,6 @@ form h3 {
 }
 #Trailer-content-div > h2{
     font-size: 30px;
-}
-
-#Trailer-content-div2 {
-    width: 50%;
-    height: 250px;
-    margin-top: 25px;
-    margin-left: 50px;
 }
 #Trailer-content-div-3 {
     margin-left: 1160px;
@@ -832,14 +808,11 @@ font-size: 22px;
 }
 #Trailer-content {
     height: 330px;
-    margin-top: 50px;
 }
 
 #Trailer-content-div {
-    width: 80%;
     height: 270px;
     margin-left: 128px;
-    margin-top: 25px;
 }
 
 #video-div{
@@ -847,15 +820,11 @@ font-size: 22px;
 }
 #Trailer-content-2 {
     height: 250px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #Trailer-content-div2 {
-    width: 50%;
     height: 200px;
-    margin-top: 25px;
-    margin-left: 50px;
 }
 #Trailer-content-div2 > p{
     font-size: 20px;
@@ -865,9 +834,8 @@ font-size: 22px;
     width: 40%;
     height: 200px;
     margin-top: 25px;
-    margin-left: 830px;
+    margin-left: 860px;
 }
-
 /* end of my more.html queries (1600px)*/
 /* start of my sign-up.html queries (1600px)*/
 #form-section {
@@ -946,31 +914,11 @@ font-size: 22px;
         }
         #Trailer-content {
             width: 100%;
-            height: 330px;
-            margin-top: 50px;
         }
         
-        #Trailer-content-div {
-            width: 80%;
-            height: 270px;
-            margin-left: 128px;
-            margin-top: 25px;
-        }
         #Trailer-content-2 {
             width: 100%;
-            height: 250px;
-            margin-top: 50px;
         }  
-        #Trailer-content-div2 {
-            width: 50%;
-            height: 200px;
-            margin-top: 25px;
-            margin-left: 50px;
-        }
-        #Trailer-content-div2 > p{
-            font-size: 20px;
-
-        }
         #Trailer-content-div-3 > p{
             font-size: 18px;
         }
@@ -978,9 +926,6 @@ font-size: 22px;
             font-size: 18px;
         }
         #Trailer-content-div-3 {
-            width: 40%;
-            height: 200px;
-            margin-top: 25px;
             margin-left: 580px;
         }
 /* end of my more.html queries (1024px)*/
@@ -1090,17 +1035,14 @@ font-size: 22px;
         #Trailer-content {
             width: 80%;
             height: 1050px;
-            margin-top: 50px;
             margin: 0 auto;
             display: flex;
             justify-content: center;
         }
         
         #Trailer-content-div {
-            width: 80%;
             height: 1000px;
             margin-left: 00px;
-            margin-top: 25px;
         }
         #Trailer-content-div > h2{
             font-size: 30px;
@@ -1119,17 +1061,14 @@ font-size: 22px;
             width: 80%;
             height: 1050px;
             margin: 0 auto;
-            margin-top: 50px;
         }
         
         #Trailer-content-div2 {
             width: 80%;
             height: 450px;
-            margin-left: 50px;
             position: relative;
             display: block;
             margin: 0 auto;
-            margin-top: 25px;
         }
         
         #Trailer-content-div-3 {
@@ -1235,32 +1174,23 @@ padding: 10px;
 #Trailer-content {
     width: 100%;
     height: 1350px;
-    margin-top: 50px;
 }
 
 #Trailer-content-div {
     width: 100%;
     height: 1300px;
-    margin-left: 0px;
-    margin-top: 25px;
 }
 #Trailer-content-div > h2{
     font-size: 35px;
 }
-#Trailer-content-div > p{
-font-size: 25px;
-}
 
 #Trailer-content-2 {
     width: 100%;
-    height: 1050px;
-    margin-top: 50px;
 }
 
 #Trailer-content-div2 {
     width: 100%;
     height: 400px;
-    margin-top: 25px;
     margin-left: 0px;
 }
 
@@ -1270,12 +1200,6 @@ font-size: 25px;
     margin-top: 125px;
     margin-left: 0px;
 }
-#Trailer-content-div-3 > h2{
-font-size: 30px;
-}
-#Trailer-content-div-3 > p{
-    font-size: 25px;
-    }
 /* end of my more.html queries (425px)*/
 /* start of my sign-up.html queries (425px)*/
 #menu-signup {
@@ -1364,45 +1288,6 @@ font-size: 20px;
 font-size: 25px;
 }
 /*End of my index.html queries (375px)*/
-/* Start of my more.html queries (375px)*/
-#Trailer-content {
-    width: 100%;
-    height: 1350px;
-    margin-top: 50px;
-}
-
-#Trailer-content-div {
-    width: 100%;
-    height: 1300px;
-    margin-left: 0px;
-    margin-top: 25px;
-}
-#Trailer-content-2 {
-    width: 100%;
-    height: 1050px;
-    margin-top: 50px;
-}
-
-#Trailer-content-div2 {
-    width: 100%;
-    height: 400px;
-    margin-top: 25px;
-    margin-left: 0px;
-}
-
-#Trailer-content-div-3 {
-    width: 100%;
-    height: 400px;
-    margin-top: 125px;
-    margin-left: 0px;
-}
-#Trailer-content-div-3 > h2{
-    font-size: 30px;
-}
-#Trailer-content-div-3 > p{
-    font-size: 25px;
-}
-/* End of my more.html queries (375px)*/
 }
 @media screen and (max-width:320px) {
     /* Start of my index.html queries (320px)*/
@@ -1469,16 +1354,6 @@ font-size: 30px;
 }
 /* End of my index.html queries (320px)*/
 /* Start of my more.html queries (320px)*/
-#Trailer-content {
-    height: 1350px;
-    margin-top: 50px;
-}
-
-#Trailer-content-div {
-    height: 1300px;
-    margin-left: 0px;
-    margin-top: 25px;
-}
 #Trailer-content-div > h2{
     font-size: 30px;
 }
@@ -1487,23 +1362,8 @@ font-size: 22px;
 }
 #Trailer-content-2 {
     height: 1050px;
-    margin-top: 50px;
 }
 
-#Trailer-content-div2 {
-    height: 400px;
-    margin-top: 25px;
-    margin-left: 0px;
-}
-
-#Trailer-content-div-3 {
-    height: 400px;
-    margin-top: 125px;
-    margin-left: 0px;
-}
-#Trailer-content-div-3 > h2{
-font-size: 30px;
-}
 #Trailer-content-div-3 > p{
     font-size: 22px;
     }
@@ -1561,31 +1421,13 @@ padding: 5px;
 #Trailer-content {
     width: 270px;
     height: 1150px;
-    margin-top: 50px;
 }
 
 #Trailer-content-div {
     width: 270px;
     height: 1100px;
-    margin-left: 0px;
-    margin-top: 25px;
-}
-#Trailer-content-2 {
-    height: 1050px;
-    margin-top: 50px;
 }
 
-#Trailer-content-div2 {
-    height: 400px;
-    margin-top: 25px;
-    margin-left: 0px;
-}
-
-#Trailer-content-div-3 {
-    height: 400px;
-    margin-top: 125px;
-    margin-left: 0px;
-}
 #Trailer-content-div-3 > h2{
 font-size: 25px;
 }
