@@ -1246,8 +1246,6 @@ padding: 10px;
 
 #pre-order-div {
 height: 300px;
-position: absolute;
-text-align: center;
 margin-left: -155px;
 }
 
@@ -1257,7 +1255,6 @@ font-size: 50px;
 
 #menu {
 font-size: 27px;
-margin-top: 20px;
 margin-left: 00px;
 }
 #menu ul{
@@ -1337,7 +1334,6 @@ font-size: 30px;
 } 
 
 #content-paragrph p {
-    text-align: left;
     font-size: 20px;
 }
 #long-paragraph {
